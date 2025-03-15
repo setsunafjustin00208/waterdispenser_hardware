@@ -1,0 +1,51 @@
+# Water Dispenser Project
+
+This project is designed to control and monitor a water dispenser using PlatformIO.
+
+## Project Structure
+
+The project structure is as follows:
+
+```
+waterdispenser/
+├── include/            # Project-specific header files
+├── lib/                # Libraries
+├── src/                # Source files
+│   ├── main.cpp        # Main application file
+├── test/               # Unit tests
+├── platformio.ini      # Project configuration file
+```
+
+## Features
+
+- Dispense water with a button press
+- Monitor water level
+- Automatic refill when water level is low
+- Display status on an LCD screen
+
+## Requirements
+
+- PlatformIO
+- Arduino framework
+- LCD display
+- Water level sensor
+- Relay module
+
+## Installation
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/waterdispenser.git
+    ```
+2. Open the project with PlatformIO IDE.
+3. Build and upload the firmware to your microcontroller.
+
+## Usage
+
+1. Connect the hardware components as per the schematic.
+2. Power on the system.
+3. Use the button to dispense water and monitor the status on the LCD screen.
+
+## License
+
+This project is licensed under the MIT License.
