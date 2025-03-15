@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../../esp32waterdispenser"
+		},
+		{
+			"name": "waterdispenser",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
